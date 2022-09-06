@@ -11,7 +11,7 @@
 
 
     <EditText
-        android:id="@+id/editTextPhone"
+        android:id="@+id/editnumlog_2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
@@ -24,10 +24,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+        app:layout_constraintTop_toBottomOf="@+id/logolog_2" />
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/logolog_2"
         android:layout_width="302dp"
         android:layout_height="78dp"
         android:layout_marginStart="32dp"
@@ -44,7 +44,7 @@
         tools:srcCompat="@drawable/captura" />
 
     <CheckBox
-        android:id="@+id/checkBox"
+        android:id="@+id/acp_ter_con_2"
         android:layout_width="400dp"
         android:layout_height="35dp"
         android:text="Acepto los Términos y Condiciones del uso de esta aplicación"
@@ -54,7 +54,7 @@
         tools:layout_editor_absoluteY="387dp" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/buttonlog_2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
@@ -65,6 +65,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextPhone" />
+        app:layout_constraintTop_toBottomOf="@+id/editnumlog_2" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

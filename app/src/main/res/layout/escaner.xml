@@ -8,7 +8,7 @@
     tools:context=".MainActivity"
     android:background="#302E3B">
     <androidx.appcompat.widget.Toolbar
-        android:id="@+id/toolbar"
+        android:id="@+id/toolbar1_Escan_2"
         android:layout_width="421dp"
         android:layout_height="60dp"
         android:background="#1D1C23"
@@ -19,7 +19,7 @@
         tools:layout_editor_absoluteY="-1dp">
 
         <ImageButton
-            android:id="@+id/imageButton"
+            android:id="@+id/imageButton_menuRF_2"
             android:layout_width="40dp"
             android:layout_height="38dp"
             android:adjustViewBounds="false"
@@ -30,7 +30,7 @@
             tools:layout_editor_absoluteY="14dp" />
 
         <ImageView
-            android:id="@+id/imageView3"
+            android:id="@+id/logo_Escan_2"
             android:layout_width="187dp"
             android:layout_height="36dp"
             app:srcCompat="@drawable/captura1"
@@ -39,7 +39,7 @@
 
     </androidx.appcompat.widget.Toolbar>
     <androidx.appcompat.widget.Toolbar
-        android:id="@+id/toolbar2"
+        android:id="@+id/toolbar2_Escan_2"
         android:layout_width="421dp"
         android:layout_height="60dp"
         android:background="#1D1C23"
@@ -51,7 +51,7 @@
 
 
     <TextView
-        android:id="@+id/textView7"
+        android:id="@+id/text_TickEst_2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Estado: Boleto Usado"
@@ -63,14 +63,14 @@
 
 
     <ImageView
-        android:id="@+id/imageView6"
+        android:id="@+id/imageView_EventosEsc_2"
         android:layout_width="378dp"
         android:layout_height="679dp"
         app:srcCompat="@drawable/conciertos_1_1"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="-163dp" />
     <TextView
-        android:id="@+id/textView6"
+        android:id="@+id/text_EvName_2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Bungus"
@@ -80,7 +80,7 @@
         tools:layout_editor_absoluteY="103dp" />
 
     <TextView
-        android:id="@+id/textView8"
+        android:id="@+id/text_EvDat_2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="5 de Septiembre"

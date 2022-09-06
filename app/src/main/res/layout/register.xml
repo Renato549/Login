@@ -21,11 +21,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName4"
+        app:layout_constraintTop_toBottomOf="@+id/editDate_reg_2"
         />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/logoreg_2"
         android:layout_width="230dp"
         android:layout_height="67dp"
         app:srcCompat="@drawable/captura"
@@ -33,7 +33,7 @@
         tools:layout_editor_absoluteY="41dp" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textView_reg_2"
         android:layout_width="248dp"
         android:layout_height="54dp"
         android:fontFamily="@font/alata"
@@ -44,7 +44,7 @@
         tools:layout_editor_absoluteY="198dp" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/editname_reg_2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="85dp"
@@ -58,10 +58,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:layout_constraintTop_toBottomOf="@+id/logoreg_2" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName2"
+        android:id="@+id/editlname_reg_2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="85dp"
@@ -76,10 +76,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:layout_constraintTop_toBottomOf="@+id/logoreg_2" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName4"
+        android:id="@+id/editDate_reg_2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="85dp"
@@ -94,10 +94,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:layout_constraintTop_toBottomOf="@+id/logoreg_2" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName3"
+        android:id="@+id/editemail_reg_2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="85dp"
@@ -112,7 +112,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:layout_constraintTop_toBottomOf="@+id/logoreg_2" />
 
     <TextView
         android:id="@+id/textView2"
