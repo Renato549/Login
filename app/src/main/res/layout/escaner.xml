@@ -7,8 +7,6 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity"
     android:background="#302E3B">
-
-
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="421dp"
@@ -40,7 +38,6 @@
             tools:layout_editor_absoluteY="16dp" />
 
     </androidx.appcompat.widget.Toolbar>
-
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar2"
         android:layout_width="421dp"
@@ -52,51 +49,51 @@
         tools:layout_editor_absoluteX="-10dp"
         tools:layout_editor_absoluteY="675dp"/>
 
-    <ScrollView
-        android:id="@+id/scrollView3"
-        android:layout_width="349dp"
-        android:layout_height="334dp"
-        android:layout_marginTop="24dp"
-        android:background="@color/white"
-        app:layout_constraintTop_toBottomOf="@+id/scrollView2"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="30dp">
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical" />
-    </ScrollView>
-
-    <ScrollView
-        android:id="@+id/scrollView2"
-        android:layout_width="350dp"
-        android:layout_height="103dp"
-        android:layout_marginTop="40dp"
-        android:background="@color/white"
-        app:layout_constraintTop_toBottomOf="@+id/toolbar"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="29dp">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical" />
-    </ScrollView>
-
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="match_parent"
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="32dp"
-        android:text="Button"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/scrollView3"
-        android:backgroundTint="#182EC1"
-        />
+        android:text="Estado: Boleto Usado"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="586dp" />
 
 
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="378dp"
+        android:layout_height="679dp"
+        app:srcCompat="@drawable/conciertos_1_1"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="-163dp" />
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bungus"
+        android:textColor="@color/teal_200"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="155dp"
+        tools:layout_editor_absoluteY="103dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5 de Septiembre"
+        android:textColor="@color/teal_200"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="96dp"
+        tools:layout_editor_absoluteY="166dp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/galaxy_s21_ultra_precio"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="328dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
